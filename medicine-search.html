@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medicine Search | HealthCare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            <img src="elagylogo.png" alt="elagy logo">
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+            <div class="nav-right">
+            <span class="lang">
+                <i class="fa-solid fa-globe"></i> العربية
+            </span> 
+            <a href="profile.html" class="profile-btn">Profile</a>
+        </div>
+    </div>
+</header>
+
+
+<section class="medicine-search-section py-5">
+
+<div class="container">
+
+    <!-- Title -->
+    <div class="text-center mb-4">
+        <h5 class="text-muted">Search Medicines</h5>
+        <h2 class="fw-semibold">Find medications and check availability</h2>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8 d-flex gap-3">
+            <div class="search-input-wrapper flex-grow-1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="form-control search-input" placeholder="Enter medicine name...">
+            </div>
+            <button class="btn btn-primary px-4">Search</button>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="text-center mb-4">
+        <button class="btn btn-primary filter-btn active">All</button>
+        <button class="btn btn-outline-secondary filter-btn">Available</button>
+        <button class="btn btn-outline-secondary filter-btn">Alternatives</button>
+    </div>
+
+    <!-- Results Table -->
+    <div class="table-responsive">
+        <table class="table custom-table align-middle">
+            <thead>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>
+                        <strong>Panadol Extra</strong><br>
+                        <small class="text-muted">Alternatives: Paracetamol, Cetal</small>
+                    </td>
+                    <td>25 EGP</td>
+                    <td><span class="badge bg-success-subtle text-success status-badge">✔ Available</span></td>
+                    <td><button class="btn btn-outline-primary btn-sm">View Details</button></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>Augmentin 1g</strong><br>
+                        <small class="text-muted">Alternatives: Amoxil, Megamox</small>
+                    </td>
+                    <td>85 EGP</td>
+                    <td><span class="badge bg-success-subtle text-success status-badge">✔ Available</span></td>
+                    <td><button class="btn btn-outline-primary btn-sm">View Details</button></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>Concor 5mg</strong><br>
+                        <small class="text-muted">Alternatives: Bisoprolol, Cardicor</small>
+                    </td>
+                    <td>45 EGP</td>
+                    <td><span class="badge bg-warning-subtle text-warning status-badge">⚠ Limited Stock</span></td>
+                    <td><button class="btn btn-outline-primary btn-sm">View Details</button></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>Lipitor 20mg</strong><br>
+                        <small class="text-muted">Alternatives: Atorvastatin, Sortis</small>
+                    </td>
+                    <td>120 EGP</td>
+                    <td><span class="badge bg-success-subtle text-success status-badge">✔ Available</span></td>
+                    <td><button class="btn btn-outline-primary btn-sm">View Details</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer-modern">
+
+    <div class="footer-modern-container">
+
+        <!-- Logo -->
+        <a href="index.html" class="footer-modern-logo">
+            <img src="elagylogo.png" alt="Elagy Logo">
+        </a>
+
+        <!-- Links -->
+        <ul class="footer-modern-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+
+        <!-- Social -->
+        <ul class="footer-modern-social">
+            <li>
+                <a href="https://www.facebook.com/share/1Zeza5DA3z/?mibextid=wwXIfr" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/3elagy_?igsh=MTd6eXVxNWMyMW90dA==" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@3elagy?_r=1&_t=ZS-940KEaGiXnJ" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Copyright -->
+        <p class="footer-modern-copy">
+            © 2025 3elagy. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

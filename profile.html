@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Your Main CSS -->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            <img src="elagylogo.png" alt="elagy logo">
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+            <div class="nav-right">
+            <span class="lang">
+                <i class="fa-solid fa-globe"></i> العربية
+            </span> 
+            <a href="profile.html" class="profile-btn">Profile</a>
+        </div>
+    </div>
+</header>
+
+<!-- ================= PROFILE HEADER ================= -->
+<section class="profile-hero text-center py-5">
+    <div class="profile-avatar">
+        <i class="fa-regular fa-user"></i>
+    </div>
+    <h4 class="mt-3">My Profile</h4>
+    <p class="text-muted">Your personal health dashboard</p>
+</section>
+
+<!-- ================= MAIN CONTENT ================= -->
+<section class="profile-section pb-5">
+<div class="container">
+
+<div class="row g-4">
+
+<!-- LEFT COLUMN -->
+<div class="col-lg-4">
+
+<!-- Personal Info -->
+<div class="card profile-card p-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h5>Personal Information</h5>
+        <button class="btn btn-outline-primary btn-sm">
+            <i class="fa-regular fa-pen-to-square"></i> Edit Profile
+        </button>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-regular fa-user"></i>
+        <div>
+            <small>Name</small>
+            <p>Ahmed Mohamed</p>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-regular fa-envelope"></i>
+        <div>
+            <small>Email</small>
+            <p>ahmed.mohamed@example.com</p>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+            <small>Phone</small>
+            <p>+20 100 123 4567</p>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-solid fa-droplet text-danger"></i>
+        <div>
+            <small>Blood Type</small>
+            <p>A+</p>
+        </div>
+    </div>
+</div>
+
+<!-- Medical Records -->
+<div class="card profile-card p-4 mt-4">
+    <div class="d-flex justify-content-between mb-3">
+        <h5>My Medical Records</h5>
+        <a href="#">View All Records</a>
+    </div>
+
+    <div class="record-item">
+        <i class="fa-regular fa-file"></i>
+        <div>
+            <p>Blood Test Results - Nov 2024</p>
+            <small>2024-11-28 • 2.4 MB</small>
+        </div>
+    </div>
+
+    <div class="record-item">
+        <i class="fa-regular fa-file"></i>
+        <div>
+            <p>X-Ray Report - Oct 2024</p>
+            <small>2024-10-15 • 1.8 MB</small>
+        </div>
+    </div>
+
+    <div class="record-item">
+        <i class="fa-regular fa-file"></i>
+        <div>
+            <p>Prescription - Sept 2024</p>
+            <small>2024-09-20 • 0.5 MB</small>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- RIGHT COLUMN -->
+<div class="col-lg-8">
+
+<!-- Timeline -->
+<div class="card profile-card p-4">
+<h5 class="mb-4">Medical History Timeline</h5>
+
+<div class="timeline-item">
+    <i class="fa-solid fa-vial"></i>
+    <div>
+        <small>Lab Test</small>
+        <p>Complete Blood Count</p>
+    </div>
+    <span class="badge bg-primary-subtle text-primary">Normal</span>
+</div>
+
+<div class="timeline-item">
+    <i class="fa-solid fa-pills"></i>
+    <div>
+        <small>Prescription</small>
+        <p>Panadol Extra - 20 tablets</p>
+    </div>
+    <span class="badge bg-success-subtle text-success">Completed</span>
+</div>
+
+<div class="timeline-item">
+    <i class="fa-solid fa-heart-pulse"></i>
+    <div>
+        <small>Checkup</small>
+        <p>Annual Health Checkup</p>
+    </div>
+    <span class="badge bg-success-subtle text-success">Completed</span>
+</div>
+
+</div>
+
+<!-- Recent Requests -->
+<div class="card profile-card p-4 mt-4">
+<h5 class="mb-4">Recent Requests</h5>
+
+<div class="request-item">
+    <div>
+        <small>Medicine Search</small>
+        <p>Augmentin 1g</p>
+    </div>
+    <span class="badge bg-success-subtle text-success">Found</span>
+</div>
+
+<div class="request-item">
+    <div>
+        <small>Lab Booking</small>
+        <p>Thyroid Profile</p>
+    </div>
+    <span class="badge bg-warning-subtle text-warning">Pending</span>
+</div>
+
+<div class="request-item">
+    <div>
+        <small>Pharmacy</small>
+        <p>El Ezaby - Nasr City</p>
+    </div>
+    <span class="badge bg-success-subtle text-success">Visited</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-modern">
+
+    <div class="footer-modern-container">
+
+        <!-- Logo -->
+        <a href="index.html" class="footer-modern-logo">
+            <img src="elagylogo.png" alt="Elagy Logo">
+        </a>
+
+        <!-- Links -->
+        <ul class="footer-modern-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+
+        <!-- Social -->
+        <ul class="footer-modern-social">
+            <li>
+                <a href="https://www.facebook.com/share/1Zeza5DA3z/?mibextid=wwXIfr" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/3elagy_?igsh=MTd6eXVxNWMyMW90dA==" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@3elagy?_r=1&_t=ZS-940KEaGiXnJ" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Copyright -->
+        <p class="footer-modern-copy">
+            © 2025 3elagy. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
